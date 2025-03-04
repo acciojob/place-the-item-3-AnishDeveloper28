@@ -1,2 +1,17 @@
+.holder {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Ensures items wrap to the next row if needed */
+    gap: 10px; /* Adds spacing between items */
+    padding: 10px;
+    background-color: #f0f0f0;
+}
 
-/* Your CSS Code here. */
+.item {
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 100px;
+}
